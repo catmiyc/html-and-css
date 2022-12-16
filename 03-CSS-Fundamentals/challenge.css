@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.product {
+  border: 5px solid black;
+  width: 825px;
+  margin: 50px auto;
+}
+
+p {
+  padding-bottom: 20px;
+}
+h2 {
+  /* background-color: blue; */
+  position: relative;
+}
+
+h2::before {
+  content: "SALE";
+  letter-spacing: 10px;
+  font-size: 15px;
+  background-color: red;
+  color: #fff;
+  padding: 5px 10px;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.infolink:link,
+.infolink:visited {
+  color: red;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.infolink:hover,
+.infolink:active {
+  text-decoration: none;
+}
+
+.color-black {
+  background-color: #000;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+.color-blue {
+  background-color: blue;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+.color-red {
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+.color-yellow {
+  background-color: yellow;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+.color-green {
+  background-color: greenyellow;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+.color-brown {
+  background-color: brown;
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.shipping {
+  color: #777;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.detail-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.detail-list {
+  list-style: square;
+  padding-left: 50px;
+}
+
+.detail-list li {
+  margin-bottom: 10px;
+}
+
+.detail-list li:last-child {
+  padding-bottom: 0;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border-top: 5px solid #000;
+}
